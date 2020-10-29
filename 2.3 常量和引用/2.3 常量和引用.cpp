@@ -22,7 +22,7 @@ int main(void)
 
 	//三：头文件防卫式声明
 	/*
-	* 关键点在于有 #include "head.h"  出现的地方，会把.h里面的内容都展开，这样就有重复定义的风险
+	* 关键点在于有 #include "head.h"  出现的地方，会把.h里面的内容都展开，这样就有重复定义的风险，避免重复包含同一个头文件
 	#ifndef __HEAD1__H__
 	#define __HEAD1__H__
 
@@ -39,7 +39,7 @@ int main(void)
 	//cout << &value << endl;
 	//cout << &val << endl;
 	//cout << p << endl;
-
+	const int& a = 12;//a虽然是引用，但是依然会给a分配空间
 
 	//五、常量  const
 	//表示不变的意思
