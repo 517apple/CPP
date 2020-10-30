@@ -19,11 +19,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.文件和流", "..\07.�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.异常处理", "..\08.异常处理\08.异常处理.vcxproj", "{DCAAE8B8-0437-44C2-844B-78A915329104}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第二章 基本语言", "..\2.3 常量和引用\2.3 常量和引用.vcxproj", "{A77B1953-658F-409A-AB8E-9919B186C482}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.3 常量和引用", "..\2.3 常量和引用\2.3 常量和引用.vcxproj", "{A77B1953-658F-409A-AB8E-9919B186C482}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.6函数新特性内联函数const", "..\2.6函数新特性内联函数const\2.6函数新特性内联函数const.vcxproj", "{EC09D7FD-305B-4132-AFAC-C2CDEAF42733}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.7string类型介绍", "..\2.7string类型介绍\2.7string类型介绍.vcxproj", "{20953F6E-2090-4EC7-BF7D-3C64A9756B43}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Set的用法", "..\Set的用法\Set的用法.vcxproj", "{D0A66205-9026-487D-BD7D-ED08E0DB65A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.8 迭代器", "..\2.8 迭代器\2.8 迭代器.vcxproj", "{7F2E97CA-483D-4350-AA0F-21754F67FE11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +125,22 @@ Global
 		{20953F6E-2090-4EC7-BF7D-3C64A9756B43}.Release|x64.Build.0 = Release|x64
 		{20953F6E-2090-4EC7-BF7D-3C64A9756B43}.Release|x86.ActiveCfg = Release|Win32
 		{20953F6E-2090-4EC7-BF7D-3C64A9756B43}.Release|x86.Build.0 = Release|Win32
+		{D0A66205-9026-487D-BD7D-ED08E0DB65A2}.Debug|x64.ActiveCfg = Debug|x64
+		{D0A66205-9026-487D-BD7D-ED08E0DB65A2}.Debug|x64.Build.0 = Debug|x64
+		{D0A66205-9026-487D-BD7D-ED08E0DB65A2}.Debug|x86.ActiveCfg = Debug|Win32
+		{D0A66205-9026-487D-BD7D-ED08E0DB65A2}.Debug|x86.Build.0 = Debug|Win32
+		{D0A66205-9026-487D-BD7D-ED08E0DB65A2}.Release|x64.ActiveCfg = Release|x64
+		{D0A66205-9026-487D-BD7D-ED08E0DB65A2}.Release|x64.Build.0 = Release|x64
+		{D0A66205-9026-487D-BD7D-ED08E0DB65A2}.Release|x86.ActiveCfg = Release|Win32
+		{D0A66205-9026-487D-BD7D-ED08E0DB65A2}.Release|x86.Build.0 = Release|Win32
+		{7F2E97CA-483D-4350-AA0F-21754F67FE11}.Debug|x64.ActiveCfg = Debug|x64
+		{7F2E97CA-483D-4350-AA0F-21754F67FE11}.Debug|x64.Build.0 = Debug|x64
+		{7F2E97CA-483D-4350-AA0F-21754F67FE11}.Debug|x86.ActiveCfg = Debug|Win32
+		{7F2E97CA-483D-4350-AA0F-21754F67FE11}.Debug|x86.Build.0 = Debug|Win32
+		{7F2E97CA-483D-4350-AA0F-21754F67FE11}.Release|x64.ActiveCfg = Release|x64
+		{7F2E97CA-483D-4350-AA0F-21754F67FE11}.Release|x64.Build.0 = Release|x64
+		{7F2E97CA-483D-4350-AA0F-21754F67FE11}.Release|x86.ActiveCfg = Release|Win32
+		{7F2E97CA-483D-4350-AA0F-21754F67FE11}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
