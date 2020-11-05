@@ -47,6 +47,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.7可变参函数模板", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.1直接内存管理", "..\5.1直接内存管理\5.1直接内存管理.vcxproj", "{27AE9500-B7E0-4DEA-8743-0AF53F2DED7B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.2探秘", "..\5.2探秘\5.2探秘.vcxproj", "{B798DCDF-361A-4F8E-B81A-12385B982E0E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.3shared_ptr常用操作", "..\5.3shared_ptr常用操作\5.3shared_ptr常用操作.vcxproj", "{44ED14B1-5B2E-4F95-8D80-0FAFEB8C13D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.4weak_ptr", "..\5.4weak_ptr\5.4weak_ptr.vcxproj", "{3E2857BB-23B7-4C15-9AA8-4EB5F2091631}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 shared_ptr使用场景", "..\5.5 shared_ptr使用场景\5.5 shared_ptr使用场景.vcxproj", "{ABA5BB6A-8656-42FD-8EA1-C6C5B8E568A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -231,6 +239,38 @@ Global
 		{27AE9500-B7E0-4DEA-8743-0AF53F2DED7B}.Release|x64.Build.0 = Release|x64
 		{27AE9500-B7E0-4DEA-8743-0AF53F2DED7B}.Release|x86.ActiveCfg = Release|Win32
 		{27AE9500-B7E0-4DEA-8743-0AF53F2DED7B}.Release|x86.Build.0 = Release|Win32
+		{B798DCDF-361A-4F8E-B81A-12385B982E0E}.Debug|x64.ActiveCfg = Debug|x64
+		{B798DCDF-361A-4F8E-B81A-12385B982E0E}.Debug|x64.Build.0 = Debug|x64
+		{B798DCDF-361A-4F8E-B81A-12385B982E0E}.Debug|x86.ActiveCfg = Debug|Win32
+		{B798DCDF-361A-4F8E-B81A-12385B982E0E}.Debug|x86.Build.0 = Debug|Win32
+		{B798DCDF-361A-4F8E-B81A-12385B982E0E}.Release|x64.ActiveCfg = Release|x64
+		{B798DCDF-361A-4F8E-B81A-12385B982E0E}.Release|x64.Build.0 = Release|x64
+		{B798DCDF-361A-4F8E-B81A-12385B982E0E}.Release|x86.ActiveCfg = Release|Win32
+		{B798DCDF-361A-4F8E-B81A-12385B982E0E}.Release|x86.Build.0 = Release|Win32
+		{44ED14B1-5B2E-4F95-8D80-0FAFEB8C13D0}.Debug|x64.ActiveCfg = Debug|x64
+		{44ED14B1-5B2E-4F95-8D80-0FAFEB8C13D0}.Debug|x64.Build.0 = Debug|x64
+		{44ED14B1-5B2E-4F95-8D80-0FAFEB8C13D0}.Debug|x86.ActiveCfg = Debug|Win32
+		{44ED14B1-5B2E-4F95-8D80-0FAFEB8C13D0}.Debug|x86.Build.0 = Debug|Win32
+		{44ED14B1-5B2E-4F95-8D80-0FAFEB8C13D0}.Release|x64.ActiveCfg = Release|x64
+		{44ED14B1-5B2E-4F95-8D80-0FAFEB8C13D0}.Release|x64.Build.0 = Release|x64
+		{44ED14B1-5B2E-4F95-8D80-0FAFEB8C13D0}.Release|x86.ActiveCfg = Release|Win32
+		{44ED14B1-5B2E-4F95-8D80-0FAFEB8C13D0}.Release|x86.Build.0 = Release|Win32
+		{3E2857BB-23B7-4C15-9AA8-4EB5F2091631}.Debug|x64.ActiveCfg = Debug|x64
+		{3E2857BB-23B7-4C15-9AA8-4EB5F2091631}.Debug|x64.Build.0 = Debug|x64
+		{3E2857BB-23B7-4C15-9AA8-4EB5F2091631}.Debug|x86.ActiveCfg = Debug|Win32
+		{3E2857BB-23B7-4C15-9AA8-4EB5F2091631}.Debug|x86.Build.0 = Debug|Win32
+		{3E2857BB-23B7-4C15-9AA8-4EB5F2091631}.Release|x64.ActiveCfg = Release|x64
+		{3E2857BB-23B7-4C15-9AA8-4EB5F2091631}.Release|x64.Build.0 = Release|x64
+		{3E2857BB-23B7-4C15-9AA8-4EB5F2091631}.Release|x86.ActiveCfg = Release|Win32
+		{3E2857BB-23B7-4C15-9AA8-4EB5F2091631}.Release|x86.Build.0 = Release|Win32
+		{ABA5BB6A-8656-42FD-8EA1-C6C5B8E568A6}.Debug|x64.ActiveCfg = Debug|x64
+		{ABA5BB6A-8656-42FD-8EA1-C6C5B8E568A6}.Debug|x64.Build.0 = Debug|x64
+		{ABA5BB6A-8656-42FD-8EA1-C6C5B8E568A6}.Debug|x86.ActiveCfg = Debug|Win32
+		{ABA5BB6A-8656-42FD-8EA1-C6C5B8E568A6}.Debug|x86.Build.0 = Debug|Win32
+		{ABA5BB6A-8656-42FD-8EA1-C6C5B8E568A6}.Release|x64.ActiveCfg = Release|x64
+		{ABA5BB6A-8656-42FD-8EA1-C6C5B8E568A6}.Release|x64.Build.0 = Release|x64
+		{ABA5BB6A-8656-42FD-8EA1-C6C5B8E568A6}.Release|x86.ActiveCfg = Release|Win32
+		{ABA5BB6A-8656-42FD-8EA1-C6C5B8E568A6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
