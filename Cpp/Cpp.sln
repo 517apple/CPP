@@ -55,6 +55,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.4weak_ptr", "..\5.4weak_p
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 shared_ptr使用场景", "..\5.5 shared_ptr使用场景\5.5 shared_ptr使用场景.vcxproj", "{ABA5BB6A-8656-42FD-8EA1-C6C5B8E568A6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sort的用法", "..\sort的用法\sort的用法.vcxproj", "{F19B749E-90F0-45B8-A45F-CBF6EDA0A7AC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lambda表达式", "..\lambda表达式\lambda表达式.vcxproj", "{EC3BA450-72ED-4037-8F1A-4937078BD139}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -271,6 +275,22 @@ Global
 		{ABA5BB6A-8656-42FD-8EA1-C6C5B8E568A6}.Release|x64.Build.0 = Release|x64
 		{ABA5BB6A-8656-42FD-8EA1-C6C5B8E568A6}.Release|x86.ActiveCfg = Release|Win32
 		{ABA5BB6A-8656-42FD-8EA1-C6C5B8E568A6}.Release|x86.Build.0 = Release|Win32
+		{F19B749E-90F0-45B8-A45F-CBF6EDA0A7AC}.Debug|x64.ActiveCfg = Debug|x64
+		{F19B749E-90F0-45B8-A45F-CBF6EDA0A7AC}.Debug|x64.Build.0 = Debug|x64
+		{F19B749E-90F0-45B8-A45F-CBF6EDA0A7AC}.Debug|x86.ActiveCfg = Debug|Win32
+		{F19B749E-90F0-45B8-A45F-CBF6EDA0A7AC}.Debug|x86.Build.0 = Debug|Win32
+		{F19B749E-90F0-45B8-A45F-CBF6EDA0A7AC}.Release|x64.ActiveCfg = Release|x64
+		{F19B749E-90F0-45B8-A45F-CBF6EDA0A7AC}.Release|x64.Build.0 = Release|x64
+		{F19B749E-90F0-45B8-A45F-CBF6EDA0A7AC}.Release|x86.ActiveCfg = Release|Win32
+		{F19B749E-90F0-45B8-A45F-CBF6EDA0A7AC}.Release|x86.Build.0 = Release|Win32
+		{EC3BA450-72ED-4037-8F1A-4937078BD139}.Debug|x64.ActiveCfg = Debug|x64
+		{EC3BA450-72ED-4037-8F1A-4937078BD139}.Debug|x64.Build.0 = Debug|x64
+		{EC3BA450-72ED-4037-8F1A-4937078BD139}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC3BA450-72ED-4037-8F1A-4937078BD139}.Debug|x86.Build.0 = Debug|Win32
+		{EC3BA450-72ED-4037-8F1A-4937078BD139}.Release|x64.ActiveCfg = Release|x64
+		{EC3BA450-72ED-4037-8F1A-4937078BD139}.Release|x64.Build.0 = Release|x64
+		{EC3BA450-72ED-4037-8F1A-4937078BD139}.Release|x86.ActiveCfg = Release|Win32
+		{EC3BA450-72ED-4037-8F1A-4937078BD139}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

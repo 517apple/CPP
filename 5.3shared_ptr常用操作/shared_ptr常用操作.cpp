@@ -103,6 +103,8 @@ int main(void)
 	cout << p1 << ":" << *p1 << endl;
 	cout << p2 << ":" << *p2 << endl;
 
+	shared_ptr<string> p21(new string("mem"));
+	cout << (*p21).mem() << endl;
 	//7. 智能指针名字作为判断条件
 
 	//8. 指定删除器以及数组问题
