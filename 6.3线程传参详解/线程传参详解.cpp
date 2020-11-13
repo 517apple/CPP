@@ -23,6 +23,7 @@ namespace _nmsp1
 	{
 		cout << i << endl;
 		cout << buf << endl;
+		cout << std::this_thread::get_id() << endl;
 		return;
 	}
 
@@ -34,6 +35,9 @@ namespace _nmsp1
 		char mybuf[] = "this is a test";
 		thread myjob1(myprint, myvary, mybuf);
 		myjob1.join();
+
+		//1. 线程id的概念：id是一个数字，每个线程实际上都对应着一个数字
+		cout << std::this_thread::get_id() << endl;
 	}
 }
 

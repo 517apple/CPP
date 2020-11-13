@@ -27,7 +27,7 @@ bool cmp(int a, int b)
 	//	else
 	//		false;
 	//}
-	return ((a % 2 == 0)?((b % 2 == 0) ? (a < b) : true) : ((b % 2 != 0) ? a < b : false)) ;
+	return ((a % 2 == 0)?((b % 2 == 0) ? (a < b) : true ) : ((b % 2 != 0) ? a < b : false));
 
 }
 
